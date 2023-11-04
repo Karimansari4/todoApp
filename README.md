@@ -77,7 +77,7 @@ accounts</p>
 </h6><p>if already installed than skip it.</p>
 
 <h6>Setp 2 -></h6><p>Clone or download the zip of my project</p>
-<a href="https://github.com/Karimansari4/reactChatApp.git">Git Repo Link</a>
+<a href="https://github.com/Karimansari4/todoApp.git">Git Repo Link</a>
 
 <h6>Setp 3 -></h6><p>Extract the zip and go to root directory of project</p>
 
