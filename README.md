@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+<h1 align="center">Todo List App with UserAuthentication</h1> <br/><br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React Chat App
+<p>Create React and Node Application for Authentication and Task CURD Operation.</p>
 
-## Available Scripts
+## Assignment Description:
+<p>In this assignment, you will create a Todo List web application with user authentication
+features. Users should be able to sign up for an account, log in, and manage their tasks.
+Instead of a backend server and database, you can use local storage to simulate user
+accounts</p>
 
-In the project directory, you can run:
+## Requirements
 
-### `npm start`
+### 1. User Authentication
+<ul>
+    <li>Implement user registration (signup) and login functionality.</li>
+    <li>Users should be able to sign up with a username and password.</li>
+    <li>Users should be able to log in with their credentials.</li>
+    <li>Use forms for both registration and login.</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Authentication State
+<ul>
+    <li>Manage user authentication state using React state.</li>
+    <li>Implement protected routes to ensure that only authenticated users can access certain parts of the application (e.g., the todo list).</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Task Management
+<ul>
+    <li>Users should be able to create, edit, mark as completed, and delete tasks.</li>
+    <li>Tasks should be associated with the logged-in user.</li>
+    <li>Tasks should persist in local storage, so they are not lost on page refresh.</li>
+</ul>
 
-### `npm test`
+### 4. Logout
+<ul>
+    <li>Implement a logout button that allows users to log out of their accounts.</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. User Interface
+<ul>
+    <li>Create an intuitive user interface with a clean design for both the authentication and todo list parts of the application.</li>
+    <li>Display a list of tasks, each with options to edit, mark as completed, and delete.</li>
+</ul>
 
-### `npm run build`
+### 6. Error Handling
+<ul>
+    <li>Provide user-friendly error messages for scenarios such as incorrect login credentials, registration errors, or failed task updates.</li>
+    <li>Security Considerations.</li>
+</ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 7. User-Specific Data
+<ul>
+    <li>Ensure that each user can only see and manage their own tasks after logging in. Tasks should be associated with the user who created them.</li>
+</ul>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Bonus Features (Optional):
+<ul>
+    <li>Add due dates to tasks.</li>
+    <li>Implement task prioritisation (e.g., high, medium, low).</li>
+    <li>Add the ability to filter tasks by completed and active.</li>
+    <li>Implement sorting by due date or priority.</li>
+</ul>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Database Integration (Optional):
+<ul>
+    <li>If you want to take it a step further, integrate a backend server and database (e.g., Node.js with Express and MongoDB) to store user accounts and tasks securely.</li>
+    <li>Implement API endpoints for user registration, login, and task management.</li>
+</ul>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# HOW TO INSTALL AND SETUP IN YOUR LOCAL PC/LAPTOP React App and NodeJs Server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h6>Setp 1 -></h6> <p>First goto <a href="https://nodejs.org/en">Node js official website</a> to download node js in your pc/laptop</p>
+</h6><p>if already installed than skip it.</p>
 
-## Learn More
+<h6>Setp 2 -></h6><p>Clone or download the zip of my project</p>
+<a href="https://github.com/Karimansari4/reactChatApp.git">Git Repo Link</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h6>Setp 3 -></h6><p>Extract the zip and go to root directory of project</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h6>Setp 4 -></h6><p>On root folder Open CMD and type <h6>npm i</h6> it will install all the dependencies NodeJs</p>
 
-### Code Splitting
+<h6>Setp 5 -></h6><p>Than Type on CMD <h6>npm run start</h6> it will start Node server</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<h6>Setp 6 -></h6><p>Than goto client directory and open cmd</p>
 
-### Analyzing the Bundle Size
+<h6>Setp 7 -></h6><p>Open CMD and type <h6>npm i</h6> it will install all the dependencies of ReactJs</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h6>Setp 8 -></h6><p>Than Type on CMD <h6>npm start</h6> it will start React App</p>
 
-### Making a Progressive Web App
+<p>It will automatically redirect to Browser in localhost:3000</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>Project is setedup and runinng on localhost:3000/</p>
